@@ -8,7 +8,6 @@ pipeline {
                    url: 'https://github.com/bijuthomaspta/New_Node_JS_App.git'        
             }
         }
-
         stage('Build') {
             steps {
                 sh 'npm install'
