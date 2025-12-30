@@ -6,7 +6,7 @@ pipeline {
             steps {
                git branch: 'main',
                    url: 'https://github.com/bijuthomaspta/New_Node_JS_App.git'
-# git 'https://github.com/bijuthomaspta/New_Node_JS_App.git'
+               // git 'https://github.com/bijuthomaspta/New_Node_JS_App.git'
                 
                 
                 
