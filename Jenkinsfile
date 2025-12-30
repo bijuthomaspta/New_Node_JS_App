@@ -4,11 +4,9 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-               # git 'https://github.com/bijuthomaspta/New_Node_JS_App.git'
+                git 'https://github.com/bijuthomaspta/New_Node_JS_App.git'
                 
-                 git branch: 'main',
-                     url: 'https://github.com/bijuthomaspta/New_Node_JS_App.git',
-                     credentialsId: 'github-creds'
+                
             }
         }
 
